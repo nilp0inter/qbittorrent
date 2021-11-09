@@ -1,0 +1,3 @@
+#!/bin/bash
+exec >/tmp/debug.stdout 2>/tmp/debug.stderr
+"$@"
